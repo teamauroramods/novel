@@ -1,0 +1,6 @@
+{
+  "parent": "horizons:block/lily",
+  "textures": {
+    "flower": "horizons:block/light_gray_lily"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "horizons:block/cross_tint",
+  "textures": {
+    "cross": "horizons:block/giant_fern_bottom"
+  }
+}
