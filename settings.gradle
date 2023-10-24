@@ -3,13 +3,17 @@ pluginManagement {
         maven { url "https://maven.fabricmc.net/" }
         maven { url "https://maven.architectury.dev/" }
         maven { url "https://maven.minecraftforge.net/" }
-        maven { url "https://server.bbkr.space/artifactory/libs-release/" }
         gradlePluginPortal()
     }
 }
 
-rootProject.name = "novel"
-
 include("common")
+include ("common:enhanced_mushrooms")
+
 include("fabric")
+include ("fabric:enhanced_mushrooms")
+
 include("forge")
+include ("forge:enhanced_mushrooms")
+
+rootProject.name = "novel"
